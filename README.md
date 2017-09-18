@@ -10,6 +10,10 @@ ResponseBody responseBody = imageToOCR.getOcrResult("image file path");
 //Then you can use the methods provided by responseBody to get the parameters you need
 ```
  
+SDK function:
+1. Provides Json data conversion to Java object functionality
+2. Provide the correct aliyun OCR SDK identification function
+3. Simple way to use the incoming picture relative or absolute path (you need access to the picture file)
 ***
 这是一个用于阿里云提供的OCR通用印刷文字识别(GPU)的简化版SDK，你可以快捷的使用该SDK进行开发。
  
